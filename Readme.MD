@@ -1,4 +1,4 @@
-## BASIC SETUP AND INSTALLATION
+## BASIC SETUP AND INSTALLATION ON OSX
 
 1. Install PHP, Apache, MySQL and other relevant software from assignment.
 2. Create an index.php file with PHP code.
@@ -7,4 +7,12 @@
 
 
 ### RELEVANT LINKS
+Install MAMP
 ``` https://www.webucator.com/how-to/how-install-start-test-mamp-on-mac-osx.cfm ```
+
+Install Composer
+``` https://martythomas.svbtle.com/getting-started-with-composer ```
+
+Install Laravel
+
+``` https://stackoverflow.com/a/32504749/4861086 ```
