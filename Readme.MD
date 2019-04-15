@@ -14,5 +14,7 @@ Install Composer
 ``` https://martythomas.svbtle.com/getting-started-with-composer ```
 
 Install Laravel
-
 ``` https://stackoverflow.com/a/32504749/4861086 ```
+
+Deploy to Heroku
+``` https://devcenter.heroku.com/articles/getting-started-with-laravel ```
