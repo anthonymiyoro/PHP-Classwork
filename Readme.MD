@@ -1,3 +1,6 @@
+## PHP SCHOOL WORK
+This repo contains assignments and lab work from the third year API unit in Strath
+
 ## BASIC SETUP AND INSTALLATION ON OSX
 
 1. Install PHP, Apache, MySQL and other relevant software from assignment.
@@ -18,3 +21,4 @@ Install Laravel
 
 Deploy to Heroku
 ``` https://devcenter.heroku.com/articles/getting-started-with-laravel ```
+
