@@ -22,3 +22,10 @@ Install Laravel
 Deploy to Heroku
 ``` https://devcenter.heroku.com/articles/getting-started-with-laravel ```
 
+### RUNNING LARAVEL APPS
+ ``` php artisan serve ``` When in the root folder of the laravel app.
+ 
+#### OR
+
+Open the /public/ folder when using MAMP
+
