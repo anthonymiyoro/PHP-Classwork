@@ -63,41 +63,33 @@
             // Your code starts here
             
             // Split everything behind comma and put in array
-            $county_data_arr = preg_split("/\,/", $county_data); 
-            $counter = 1;
+            // $county_data_arr = preg_split("/\,/", $county_data); 
+            // $counter = 1;
 
             // Loop through array and split the individual entries
-            foreach($county_data_arr as $val) {
-                print "$val <br />";
-                $counter = $counter + 1;
-            }
-        
-            // // Build table
-            // $Rows = $counter; //Dynamic number for Rows
-            // $Cols = 3; // Dynamic number for Columns
-            // echo '<table border="1">';
-            // for($i=1;$i<=$Rows;$i++){ echo '<tr>';
-            // for($j=1;$j<=$Cols;$j++){ echo '<td>' . mt_rand($i, $i*100) . mt_rand($j, $j*100) . '</td>'; }
-            // echo '</tr>';
+            // foreach($county_data_arr as $val) {
+            //     print "$val <br />";
+            //     $counter = $counter + 1;
             // }
-            // echo '</table>';
-        ?>
-        <table>
-    <tr>
-        <th>Email</th>
-        <th>Name</th>
-        <th>Last Name</th>
-    </tr>
-    <?php
-    $i = 0;
-    foreach ($result as $r) {
-        echo "<tr>";
-        echo "<td>" . $r['aluno_sobrenome'] . "</td><td>" . strtolower(trim(($r['aluno_nome']))) . "</td><td>" . strtolower(trim($r['aluno_sobrenome'])) . "</td>";
-        echo "</tr>";
+            // we want to build a list of friends, explode returns an array with
+            // split array
 
-        $i++;
-    }
-    ?>
+            $friends = "ndingu, mburu, wambui, omosh";
+            $friends_arr = explode(',',$friends);
+            // var_dump($friends_arr);
+            // print_r($friends_arr);
+            
+            // count number of items in string
+            $county_arr = explode(",",$county_data);
+            echo count($county_arr);
+            print_r   ($county_arr);
+
+
+            ?>
+
+            <ul>
+                <li>Test</li>
+            </ul>
 </table>
     </body>
 
